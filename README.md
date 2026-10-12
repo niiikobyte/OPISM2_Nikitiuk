@@ -439,7 +439,7 @@ Accept: */*>
 
 | Проба | Значення поля `Host` | Версія | Код стану | Обсяг тіла відповіді | Збігається з A.1 (так / ні) |
 |---|---|---|---|---|---|
-| A.1 (вихідна) | | 1.1 |301 Moved Permanently |0 | — |
+| A.1 (вихідна) |nginx.com | 1.1 |301 Moved Permanently |0 | — |
 | A.2 | поле відсутнє | 1.1 |Connection reset |0 |ні |
 | A.3.1 |postgresql.org | 1.1 |404 Not Found |0 |ні |
 | A.3.2 | `opism-pr02.invalid` | 1.1 |404 Not Found |0 |ні |
